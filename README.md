@@ -1,5 +1,13 @@
-# awesome-diffusion-models-for-rl
+# Awesome Diffusion Models for Reinforcement Learning
 This repository contains a collection of resources and papers on ***Diffusion Models*** for ***RL***.
+
+## Table of Contents
+- [Awesome Diffusion Models for Reinforcement Learning](#awesome-diffusion-models-for-reinforcement-learning)
+  * [Papers](#papers)
+    + [Offline Reinforcement Learning](#offline-reinforcement-learning)
+    + [Imitation Learning](#imitation-learning)
+    + [Trajectory Generation](#trajectory-generation)
+    + [Data Augmentation](#data-augmentation)
 
 ## Papers
 

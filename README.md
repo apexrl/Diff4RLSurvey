@@ -1,8 +1,8 @@
-# Awesome Diffusion Models for Reinforcement Learning
+# Diffusion Models for Reinforcement Learning: A Survey
 This repository contains a collection of resources and papers on ***Diffusion Models*** for ***RL***.
 
 ## Table of Contents
-- [Awesome Diffusion Models for Reinforcement Learning](#awesome-diffusion-models-for-reinforcement-learning)
+- [Diffusion Models for Reinforcement Learning](#Diffusion-Models-for-Reinforcement-Learning-A-Survey)
   * [Papers](#papers)
     + [Offline Reinforcement Learning](#offline-reinforcement-learning)
     + [Imitation Learning](#imitation-learning)
@@ -13,7 +13,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 
 ### Offline Reinforcement Learning
 
-- **Planning with diffusion for flexible behavior synthesis**
+- **Planning with Diffusion for Flexible Behavior Synthesis**
 
   Michael Janner, Yilun Du, Joshua B. Tenenbaum, Sergey Levine
 
@@ -21,7 +21,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 
   [paper](https://arxiv.org/abs/2205.09991) / [code](https://github.com/jannerm/diffuser)
 
-- **Diffusion policies as an expressive policy class for offline reinforcement learning**
+- **Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning**
   
   Zhendong Wang, Jonathan J Hunt, Mingyuan Zhou
   
@@ -29,7 +29,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   
   [paper](https://arxiv.org/abs/2208.06193) / [code](https://github.com/zhendong-wang/diffusion-policies-for-offline-rl) 
   
-- **Offline reinforcement learning via high-fidelity generative behavior modeling**
+- **Offline Reinforcement Learning via High-fidelity Generative Behavior Modeling**
 
   Huayu Chen, Cheng Lu, Chengyang Ying, Hang Su, Jun Zhu
   
@@ -37,7 +37,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   
   [paper](https://arxiv.org/abs/2209.14548) / [code](https://github.com/chendrag/sfbc)
   
-- **Is conditional generative modeling all you need for decisionmaking**
+- **Is Conditional Generative Modeling all you need for Decision-Making?**
 
   Anurag Ajay, Yilun Du, Abhi Gupta, Joshua B. Tenenbaum, T. Jaakkola, Pulkit Agrawal
   
@@ -74,6 +74,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   ICML 2023
   
   [paper](https://arxiv.org/abs/2304.12824) / [code](https://github.com/thu-ml/cep-energy-guided-diffusion)
+
 - **Language Control Diffusion: Efficiently Scaling through Space, Time, and Tasks**
 
   Edwin Zhang, Yujie Lu, William Wang, Amy Zhang
@@ -81,6 +82,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   arXiv 2023
   
   [paper](https://arxiv.org/abs/2210.15629v2) / [code](https://github.com/ezhang7423/language-control-diffusion)
+
 - **IDQL: Implicit Q-Learning as an Actor-Critic Method with Diffusion Policies**
 
   Philippe Hansen-Estruch, Ilya Kostrikov, Michael Janner, Jakub Grudzien Kuba, Sergey Levine

@@ -48,6 +48,8 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 - **AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners**
 
   Zhixuan Liang, Yao Mu, Mingyu Ding, Fei Ni, Masayoshi Tomizuka, Ping Luo
+
+  ICML 2023
   
   [paper](https://arxiv.org/abs/2302.01877) / [code](https://github.com/Liang-ZX/adaptdiffuser)
   

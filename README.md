@@ -3,13 +3,17 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 
 :rocket: Please check out our survey paper [Diffusion Models for Reinforcement Learning: A Survey](https://arxiv.org/abs/2311.01223)
 
+![image info](./compare.png)
+
 ## Table of Contents
-- [Diffusion Models for Reinforcement Learning](#Diffusion-Models-for-Reinforcement-Learning-A-Survey)
-  * [Papers](#papers)
-    + [Offline Reinforcement Learning](#offline-reinforcement-learning)
-    + [Imitation Learning](#imitation-learning)
-    + [Trajectory Generation](#trajectory-generation)
-    + [Data Augmentation](#data-augmentation)
+- [Diffusion Models for Reinforcement Learning: A Survey](#diffusion-models-for-reinforcement-learning-a-survey)
+  - [Table of Contents](#table-of-contents)
+  - [Papers](#papers)
+    - [Offline Reinforcement Learning](#offline-reinforcement-learning)
+    - [Imitation Learning](#imitation-learning)
+    - [Trajectory Generation](#trajectory-generation)
+    - [Data Augmentation](#data-augmentation)
+  - [Citation](#citation)
 
 ## Papers
 

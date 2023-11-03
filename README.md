@@ -340,7 +340,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   
   [paper](https://openreview.net/forum?id=nvtxqMGpn1)
   
-- **GNFactor: Multi-Task Real Robot Learning with Generalizable Neural Feature Fields
+- **GNFactor: Multi-Task Real Robot Learning with Generalizable Neural Feature Fields**
   
   Yanjie Ze, Ge Yan, Yueh-Hua Wu, Annabella Macaluso, Yuying Ge, Jianglong Ye, Nicklas Hansen, Li Erran Li, Xiaolong Wang
   

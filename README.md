@@ -122,7 +122,23 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   NeurIPS 2023
   
   [paper](https://arxiv.org/abs/2306.01804)
+
+- **Can Pre-Trained Text-to-Image Models Generate Visual Goals for Reinforcement Learning?**
+
+  Jialu Gao, Kaizhe Hu, Guowei Xu, Huazhe Xu
+
+  NeurIPS 2023
+
+  [paper](https://arxiv.org/abs/2307.07837)
   
+- **Reward-Directed Conditional Diffusion: Provable Distribution Estimation and Reward Improvement**
+
+  Hui Yuan, Kaixuan Huang, Chengzhuo Ni, Minshuo Chen, Mengdi Wang
+  
+  NeurIPS 2023
+  
+  [paper](https://arxiv.org/abs/2307.07055) / [code](https://github.com/Kaffaljidhmah2/RCGDM/tree/main)
+
 - **SafeDiffuser: Safe Planning with Diffusion Probabilistic Models**
 
   Wei Xiao, Tsun-Hsuan Wang, Chuang Gan, Daniela Rus
@@ -162,7 +178,15 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   CORL 2023
   
   [paper](https://arxiv.org/abs/2306.14079) / [code](https://github.com/hjsuh94/score_po)
+
+- **Value function estimation using conditional diffusion models for control**
+
+  Bogdan Mazoure, Walter Talbott, Miguel Angel Bautista, Devon Hjelm, Alexander Toshev, Josh Susskind
   
+  arXiv 2023
+  
+  [paper](https://arxiv.org/abs/2306.07290)
+
 - **Instructed Diffuser with Temporal Condition Guidance for Offline Reinforcement Learning**
 
   Jifeng Hu, Yanchao Sun, Sili Huang, SiYuan Guo, Hechang Chen, Li Shen, Lichao Sun, Yi Chang, Dacheng Tao
@@ -194,6 +218,22 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   arXiv 2023
   
   [paper](https://arxiv.org/abs/2310.05333) / [code](https://github.com/felix-thu/DiffCPS)
+  
+- **Score Regularized Policy Optimization through Diffusion Behavior**
+
+  Huayu Chen, Cheng Lu, Zhengyi Wang, Hang Su, Jun Zhu
+  
+  arXiv 2023
+  
+  [paper](https://arxiv.org/abs/2310.07297) / [code](https://github.com/thu-ml/srpo)
+  
+- **Adaptive Online Replanning with Diffusion Models**
+
+  Siyuan Zhou, Yilun Du, Shun Zhang, Mengdi Xu, Yikang Shen, Wei Xiao, Dit-Yan Yeung, Chuang Gan
+  
+  arXiv 2023
+  
+  [paper](https://arxiv.org/abs/2310.09629)
   
 - **AlignDiff: Aligning Diverse Human Preferences via Behavior-Customisable Diffusion Model**
 
@@ -300,6 +340,22 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   
   [paper](https://openreview.net/forum?id=HtJE9ly5dT) / [code](https://github.com/generative-skill-chaining/gsc-code)
   
+- **Multimodal Diffusion Transformer for Learning from Play**
+  
+  Moritz Reuss, Rudolf Lioutikov
+  
+  CORL 2023
+  
+  [paper](https://openreview.net/forum?id=nvtxqMGpn1)
+  
+- **GNFactor: Multi-Task Real Robot Learning with Generalizable Neural Feature Fields
+  
+  Yanjie Ze, Ge Yan, Yueh-Hua Wu, Annabella Macaluso, Yuying Ge, Jianglong Ye, Nicklas Hansen, Li Erran Li, Xiaolong Wang
+  
+  CORL 2023
+  
+  [paper](https://arxiv.org/abs/2308.16891) / [code](https://github.com/YanjieZe/GNFactor)
+  
 - **Diffusion Co-Policy for Synergistic Human-Robot Collaborative Tasks**
 
   Eley Ng, Ziang Liu, Monroe Kennedy III
@@ -307,6 +363,15 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   arXiv 2023
   
   [paper](https://arxiv.org/abs/2305.12171) / [code](https://github.com/eleyng/diffusion_copolicy)
+
+- **Compositional Foundation Models for Hierarchical Planning**
+
+  Anurag Ajay, Seungwook Han, Yilun Du, Shuang Li, Abhi Gupta, Tommi Jaakkola, Josh Tenenbaum, Leslie Kaelbling, Akash Srivastava, Pulkit Agrawal
+  
+  NeurIPS 2023
+  
+  [paper](https://arxiv.org/abs/2309.08587) / [code](https://github.com/anuragajay/hip/tree/main)
+  
 - **Generating Behaviorally Diverse Policies with Latent Diffusion Models**
 
   Shashank Hegde, Sumeet Batra, K. R. Zentner, Gaurav S. Sukhatme
@@ -322,6 +387,14 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   arXiv 2023
   
   [paper](https://arxiv.org/abs/2310.07896) / [code](https://github.com/robodhruv/visualnav-transformer)
+
+- **Zero-Shot Robotic Manipulation with Pretrained Image-Editing Diffusion Models**
+
+  Kevin Black, Mitsuhiko Nakamoto, Pranav Atreya, Homer Walke, Chelsea Finn, Aviral Kumar, Sergey Levine
+  
+  arXiv 2023
+  
+  [paper](https://arxiv.org/abs/2310.10639)
   
 ### Trajectory Generation
 
@@ -395,7 +468,38 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   IROS 2023
   
   [paper](https://arxiv.org/abs/2308.01557) / [code](https://github.com/jacarvalho/mpd-public)
+- **EDMP: Ensemble-of-costs-guided Diffusion for Motion Planning**
+
+  Kallol Saha, Vishal Mandadi, Jayaram Reddy, Ajit Srikanth, Aditya Agarwal, Bipasha Sen, Arun Singh, Madhava Krishna
   
+  arXiv 2023
+  
+  [paper](https://arxiv.org/abs/2309.11414) / [code](https://github.com/vishal-2000/EDMP)
+  
+- **Sampling Constrained Trajectories Using Composable Diffusion Models**
+
+  Thomas Power, Rana Soltani-Zarrin, Soshi Iba, Dmitry Berenson
+  
+  IROS 2023
+  
+  [paper](https://openreview.net/forum?id=UAylEpIMNE)
+
+- **DiMSam: Diffusion Models as Samplers for Task and Motion Planning under Partial Observability**
+
+  Xiaolin Fang, Caelan Reed Garrett, Clemens Eppner, Tomás Lozano-Pérez, Leslie Pack Kaelbling, Dieter Fox
+  
+  arXiv 2023
+  
+  [paper](https://arxiv.org/abs/2306.13196)
+
+- **Conditioned Score-Based Models for Learning Collision-Free Trajectory Generation**
+
+  Joao Carvalho, Mark Baierl, Julen Urain, Jan Peters
+  
+  NeurIPSW 2022
+  
+  [paper](https://openreview.net/forum?id=4Vqu4N1jjrx)
+
 - **Video Language Planning**
 
   Yilun Du, Mengjiao Yang, Pete Florence, Fei Xia, Ayzaan Wahid, Brian Ichter, Pierre Sermanet, Tianhe Yu, Pieter Abbeel, Joshua B. Tenenbaum, Leslie Kaelbling, Andy Zeng, Jonathan Tompson
@@ -441,7 +545,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 - **Synthetic Experience Replay**
 
   Cong Lu, Philip J. Ball, Yee Whye Teh, Jack Parker-Holder
-
+  
   NeurIPS 2023
   
   [paper](https://arxiv.org/abs/2303.06614) / [code](https://github.com/conglu1997/SynthER)

@@ -1,6 +1,8 @@
 # Diffusion Models for Reinforcement Learning: A Survey
 This repository contains a collection of resources and papers on ***Diffusion Models*** for ***RL***.
 
+:rocket: Please check out our survey paper [Diffusion Models for Reinforcement Learning: A Survey](https://arxiv.org/abs/2311.01223)
+
 ## Table of Contents
 - [Diffusion Models for Reinforcement Learning](#Diffusion-Models-for-Reinforcement-Learning-A-Survey)
   * [Papers](#papers)
@@ -435,7 +437,17 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 - **Synthetic Experience Replay**
 
   Cong Lu, Philip J. Ball, Yee Whye Teh, Jack Parker-Holder
-  
+
   NeurIPS 2023
   
   [paper](https://arxiv.org/abs/2303.06614) / [code](https://github.com/conglu1997/SynthER)
+
+## Citation
+```
+@article{zhu2023diffusion,
+  title={Diffusion Models for Reinforcement Learning: A Survey}, 
+  author={Zhu, Zhengbang and Zhao, Hanye and He, Haoran and Zhong, Yichao and Zhang, Shenyu and Yu, Yong and Zhang, Weinan},
+  journal={arXiv preprint arXiv:2311.01223},
+  year={2023},
+}
+```

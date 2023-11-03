@@ -307,14 +307,6 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   CORL 2023
   
   [paper](https://arxiv.org/abs/2307.09955)
-  
-- **Crossway Diffusion: Improving Diffusion-based Visuomotor Policy via Self-supervised Learning**
-
-  Xiang Li, Varun Belagali, Jinghuan Shang, Michael S. Ryoo
-  
-  arXiv 2023
-  
-  [paper](https://arxiv.org/abs/2307.01849) / [code](https://github.com/lostxine/crossway_diffusion)
 
 - **ChainedDiffuser: Unifying Trajectory Diffusion and Keypose Prediction for Robotic Manipulation**
 
@@ -355,6 +347,14 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   CORL 2023
   
   [paper](https://arxiv.org/abs/2308.16891) / [code](https://github.com/YanjieZe/GNFactor)
+
+- **Crossway Diffusion: Improving Diffusion-based Visuomotor Policy via Self-supervised Learning**
+
+  Xiang Li, Varun Belagali, Jinghuan Shang, Michael S. Ryoo
+  
+  arXiv 2023
+  
+  [paper](https://arxiv.org/abs/2307.01849) / [code](https://github.com/lostxine/crossway_diffusion)
   
 - **Diffusion Co-Policy for Synergistic Human-Robot Collaborative Tasks**
 

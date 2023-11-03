@@ -312,7 +312,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 
   Xiang Li, Varun Belagali, Jinghuan Shang, Michael S. Ryoo
   
-  CORL 2023
+  arXiv 2023
   
   [paper](https://arxiv.org/abs/2307.01849) / [code](https://github.com/lostxine/crossway_diffusion)
 

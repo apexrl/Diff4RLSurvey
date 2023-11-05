@@ -139,6 +139,14 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   
   [paper](https://arxiv.org/abs/2307.07055) / [code](https://github.com/Kaffaljidhmah2/RCGDM/tree/main)
 
+- **Refining Diffusion Planner for Reliable Behavior Synthesis by Automatic Detection of Infeasible Plans**
+
+  Kyowoon Lee, Seongun Kim, Jaesik Choi
+
+  NeurIPS 2023
+
+  [paper](https://arxiv.org/abs/2310.19427) / [code](https://github.com/leekwoon/rgg)
+
 - **SafeDiffuser: Safe Planning with Diffusion Probabilistic Models**
 
   Wei Xiao, Tsun-Hsuan Wang, Chuang Gan, Daniela Rus
@@ -161,7 +169,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   
   arXiv 2023
   
-  [paper](https://arxiv.org/abs/2305.17330)
+  [paper](https://arxiv.org/abs/2305.17330) / [code](https://github.com/zbzhu99/madiff)
   
 - **Beyond Conservatism: Diffusion Policies in Offline Multi-agent Reinforcement Learning**
 

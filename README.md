@@ -561,9 +561,9 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 ## Citation
 ```
 @article{zhu2023diffusion,
-  title={Diffusion Models for Reinforcement Learning: A Survey}, 
+  title={Diffusion Models for Reinforcement Learning: A Survey},
   author={Zhu, Zhengbang and Zhao, Hanye and He, Haoran and Zhong, Yichao and Zhang, Shenyu and Yu, Yong and Zhang, Weinan},
   journal={arXiv preprint arXiv:2311.01223},
-  year={2023},
+  year={2023}
 }
 ```

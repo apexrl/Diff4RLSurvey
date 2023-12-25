@@ -242,7 +242,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   arXiv 2023
   
   [paper](https://arxiv.org/abs/2310.09629)
-  
+
 - **AlignDiff: Aligning Diverse Human Preferences via Behavior-Customisable Diffusion Model**
 
   Zibin Dong, Yifu Yuan, Jianye Hao, Fei Ni, Yao Mu, Yan Zheng, Yujing Hu, Tangjie Lv, Changjie Fan, Zhipeng Hu
@@ -250,14 +250,42 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   arXiv 2023
   
   [paper](https://arxiv.org/abs/2310.02054) / [code](https://github.com/aligndiff/aligndiff.github.io)
-  
+
+- **SkillDiffuser: Interpretable Hierarchical Planning via Skill Abstractions in Diffusion-Based Task Execution**
+
+  Zhixuan Liang, Yao Mu, Hengbo Ma, Masayoshi Tomizuka, Mingyu Ding, Ping Luo
+
+  arXiv 2023
+
+  [paper](https://arxiv.org/abs/2312.11598) / [website](https://skilldiffuser.github.io/)
+
+- **Learning a Diffusion Model Policy from Rewards vis Q-score Matching**
+
+  Michael Psenka, Alejandro Escontrela, Pieter Abbeel, Yi Ma
+
+  arXiv 2023
+
+  [paper](https://arxiv.org/abs/2312.11752)
+
+### Online Reinforcement Learning
+
+- **Policy Representation via Diffusion Probability
+Model for Reinforcement Learning**
+
+  Long Yang, Zhixiong Huang, Fenghao Lei, Yucun Zhong, Yiming Yang, Cong Fang, Shiting Wen, Binbin Zhou, Zhouchen Lin
+
+  arXiv 2023
+
+  [paper](https://arxiv.org/abs/2305.13122)
+
 - **Boosting Continuous Control with Consistency Policy**
 
   Yuhui Chen, Haoran Li, Dongbin Zhao
   
-  arXIv 2023
+  arXiv 2023
   
   [paper](https://arxiv.org/abs/2310.06343)
+
 ### Imitation Learning
 
 - **Imitating Human Behaviour with Diffusion Models**
@@ -403,6 +431,14 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   arXiv 2023
   
   [paper](https://arxiv.org/abs/2310.10639)
+
+- **Planning as In-Painting: A Diffusion-Based Embodied Task Planning Framework for Environments under Uncertainty**
+
+  Cheng-Fu Yang, Haoyang Xu, Te-Lin Wu, Xiaofeng Gao, Kai-Wei Chang, Feng Gao
+
+  arXiv 2023
+
+  [paper](https://arxiv.org/abs/2312.01097)
   
 ### Trajectory Generation
 
@@ -557,6 +593,14 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   NeurIPS 2023
   
   [paper](https://arxiv.org/abs/2303.06614) / [code](https://github.com/conglu1997/SynthER)
+
+- **World Models via Policy-Guided Trajectory Diffusion**
+
+  Marc Rigter, Jun Yamada, Ingmar Posner
+
+  arXiv 2023
+
+  [paper](https://arxiv.org/abs/2312.08533)
 
 ## Citation
 ```

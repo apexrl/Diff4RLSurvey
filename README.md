@@ -10,6 +10,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   - [Table of Contents](#table-of-contents)
   - [Papers](#papers)
     - [Offline Reinforcement Learning](#offline-reinforcement-learning)
+    - [Online Reinforcement Learning](#online-reinforcement-learning)
     - [Imitation Learning](#imitation-learning)
     - [Trajectory Generation](#trajectory-generation)
     - [Data Augmentation](#data-augmentation)
@@ -285,6 +286,14 @@ Model for Reinforcement Learning**
   arXiv 2023
   
   [paper](https://arxiv.org/abs/2310.06343)
+
+- **Diffusion Reward: Learning Rewards via Conditional Video Diffusion**
+
+  Tao Huang*, Guangqi Jiang*, Yanjie Ze, Huazhe Xu
+
+  arXiv 2023
+
+  [paper](https://arxiv.org/abs/2312.14134) / [website](https://diffusion-reward.github.io/) / [code](https://github.com/TaoHuang13/diffusion_reward)
 
 ### Imitation Learning
 

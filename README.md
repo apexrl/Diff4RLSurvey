@@ -268,6 +268,14 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 
   [paper](https://arxiv.org/abs/2312.11752)
 
+- **Simple Hierarchical Planning with Diffusion**
+
+  Chang Chen, Fei Deng, Kenji Kawaguchi, Caglar Gulcehre, Sungjin Ahn
+
+  arXiv 2024
+
+  [paper](https://arxiv.org/abs/2401.02644)
+
 ### Online Reinforcement Learning
 
 - **Policy Representation via Diffusion Probability

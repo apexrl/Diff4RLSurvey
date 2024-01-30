@@ -232,7 +232,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 
   Huayu Chen, Cheng Lu, Zhengyi Wang, Hang Su, Jun Zhu
   
-  arXiv 2023
+  ICLR 2024
   
   [paper](https://arxiv.org/abs/2310.07297) / [code](https://github.com/thu-ml/srpo)
   
@@ -272,9 +272,25 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 
   Chang Chen, Fei Deng, Kenji Kawaguchi, Caglar Gulcehre, Sungjin Ahn
 
-  arXiv 2024
+  ICLR 2024
 
   [paper](https://arxiv.org/abs/2401.02644)
+
+- **Reasoning with Latent Diffusion in Offline Reinforcement Learning**
+
+  Siddarth Venkatraman, Shivesh Khaitan, Ravi Tej Akella, John Dolan, Jeff Schneider, Glen Berseth
+
+  ICLR 2024
+
+  [paper](https://arxiv.org/abs/2309.06599)
+
+- **Efficient Planning with Latent Diffusion**
+
+  Wenhao Li
+
+  ICLR 2024
+
+  [paper](https://arxiv.org/abs/2310.00311)
 
 ### Online Reinforcement Learning
 

@@ -184,7 +184,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 
   H.J. Terry Suh, Glen Chou, Hongkai Dai, Lujie Yang, Abhishek Gupta, Russ Tedrake
   
-  CORL 2023
+  CoRL 2023
   
   [paper](https://arxiv.org/abs/2306.14079) / [code](https://github.com/hjsuh94/score_po)
 
@@ -365,7 +365,7 @@ Model for Reinforcement Learning**
 
   Huy Ha, Pete Florence, Shuran Song
   
-  CORL 2023
+  CoRL 2023
   
   [paper](https://arxiv.org/abs/2307.14535) / [code](https://github.com/real-stanford/scalingup)
 
@@ -373,7 +373,7 @@ Model for Reinforcement Learning**
 
   Mengda Xu, Zhenjia Xu, Cheng Chi, Manuela Veloso, Shuran Song
   
-  CORL 2023
+  CoRL 2023
   
   [paper](https://arxiv.org/abs/2307.09955)
 
@@ -381,7 +381,7 @@ Model for Reinforcement Learning**
 
   Zhou Xian, Nikolaos Gkanatsios, Theophile Gervet, Tsung-Wei Ke, Katerina Fragkiadaki
   
-  CORL 2023
+  CoRL 2023
   
   [paper](https://openreview.net/forum?id=W0zgY2mBTA8) / [code](https://github.com/zhouxian/chained-diffuser)
 
@@ -389,7 +389,7 @@ Model for Reinforcement Learning**
 
   Lili Chen, Shikhar Bahl, Deepak Pathak
   
-  CORL 2023
+  CoRL 2023
   
   [paper](https://openreview.net/forum?id=afF8RGcBBP)
   
@@ -397,7 +397,7 @@ Model for Reinforcement Learning**
 
   Utkarsh A. Mishra, Shangjie Xue, Yongxin Chen, Danfei Xu
   
-  CORL 2023
+  CoRL 2023
   
   [paper](https://openreview.net/forum?id=HtJE9ly5dT) / [code](https://github.com/generative-skill-chaining/gsc-code)
   
@@ -405,7 +405,7 @@ Model for Reinforcement Learning**
   
   Moritz Reuss, Rudolf Lioutikov
   
-  CORL 2023
+  CoRL 2023
   
   [paper](https://openreview.net/forum?id=nvtxqMGpn1)
   
@@ -413,7 +413,7 @@ Model for Reinforcement Learning**
   
   Yanjie Ze, Ge Yan, Yueh-Hua Wu, Annabella Macaluso, Yuying Ge, Jianglong Ye, Nicklas Hansen, Li Erran Li, Xiaolong Wang
   
-  CORL 2023
+  CoRL 2023
   
   [paper](https://arxiv.org/abs/2308.16891) / [code](https://github.com/YanjieZe/GNFactor)
 

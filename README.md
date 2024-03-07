@@ -256,7 +256,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 
   Zhixuan Liang, Yao Mu, Hengbo Ma, Masayoshi Tomizuka, Mingyu Ding, Ping Luo
 
-  arXiv 2023
+  CVPR 2024
 
   [paper](https://arxiv.org/abs/2312.11598) / [website](https://skilldiffuser.github.io/)
 
@@ -291,6 +291,14 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   ICLR 2024
 
   [paper](https://arxiv.org/abs/2310.00311)
+
+- **Contrastive Diffuser: Planning Towards High Return States via Contrastive Learning**
+
+  Yixiang Shan, Zhengbang Zhu, Ting Long, Qifan Liang, Yi Chang, Weinan Zhang, Liang Yin
+
+  arXiv 2024
+
+  [paper](https://arxiv.org/abs/2402.02772)
 
 ### Online Reinforcement Learning
 
@@ -465,6 +473,14 @@ Model for Reinforcement Learning**
   
   [paper](https://arxiv.org/abs/2310.10639)
 
+- **Imitation Learning from Purified Demonstrations**
+
+  Yunke Wang, Minjing Dong, Bo Du, Chang Xu
+
+  arXiv 2023
+
+  [paper](https://arxiv.org/abs/2310.07143)
+
 - **Planning as In-Painting: A Diffusion-Based Embodied Task Planning Framework for Environments under Uncertainty**
 
   Cheng-Fu Yang, Haoyang Xu, Te-Lin Wu, Xiaofeng Gao, Kai-Wei Chang, Feng Gao
@@ -472,7 +488,23 @@ Model for Reinforcement Learning**
   arXiv 2023
 
   [paper](https://arxiv.org/abs/2312.01097)
-  
+
+- **Diffusion Meets DAgger: Supercharging Eye-in-hand Imitation Learning**
+
+  Xiaoyu Zhang, Matthew Chang, Pranav Kumar, Saurabh Gupta
+
+  arXiv 2024
+
+  [paper](https://arxiv.org/abs/2402.17768)
+
+- **3D Diffusion Policy**
+
+  Yanjie Ze, Gu Zhang, Kangning Zhang, Chenyuan Hu, Muhan Wang, Huazhe Xu
+
+  arXiv 2024
+
+  [paper](https://arxiv.org/abs/2403.03954) / [website](https://3d-diffusion-policy.github.io) / [code](https://github.com/YanjieZe/3D-Diffusion-Policy)
+
 ### Trajectory Generation
 
 - **MotionDiffuse: Text-Driven Human Motion Generation with Diffusion Model**
@@ -520,45 +552,46 @@ Model for Reinforcement Learning**
   
   CVPR 2023
   
-  [paper](https://arxiv.org/abs/2306.03083) / [code]()
-  
+  [paper](https://arxiv.org/abs/2306.03083)
+
 - **Learning Universal Policies via Text-Guided Video Generation**
 
   Yilun Du, Mengjiao Yang, Bo Dai, Hanjun Dai, Ofir Nachum, Joshua B. Tenenbaum, Dale Schuurmans, Pieter Abbeel
-  
+
   NeurIPS 2023
-  
+
   [paper](https://arxiv.org/abs/2310.08576)
 
 - **EquiDiff: A Conditional Equivariant Diffusion Model For Trajectory Prediction**
 
   Kehua Chen, Xianda Chen, Zihan Yu, Meixin Zhu, Hai Yang
-  
+
   arXiv 2023
-  
+
   [paper](https://arxiv.org/abs/2308.06564)
-  
+
 - **Motion Planning Diffusion: Learning and Planning of Robot Motions with Diffusion Models**
 
   Joao Carvalho, An T. Le, Mark Baierl, Dorothea Koert, Jan Peters
-  
+
   IROS 2023
-  
+
   [paper](https://arxiv.org/abs/2308.01557) / [code](https://github.com/jacarvalho/mpd-public)
+
 - **EDMP: Ensemble-of-costs-guided Diffusion for Motion Planning**
 
   Kallol Saha, Vishal Mandadi, Jayaram Reddy, Ajit Srikanth, Aditya Agarwal, Bipasha Sen, Arun Singh, Madhava Krishna
-  
+
   arXiv 2023
-  
+
   [paper](https://arxiv.org/abs/2309.11414) / [code](https://github.com/vishal-2000/EDMP)
-  
+
 - **Sampling Constrained Trajectories Using Composable Diffusion Models**
 
   Thomas Power, Rana Soltani-Zarrin, Soshi Iba, Dmitry Berenson
-  
+
   IROS 2023
-  
+
   [paper](https://openreview.net/forum?id=UAylEpIMNE)
 
 - **DiMSam: Diffusion Models as Samplers for Task and Motion Planning under Partial Observability**
@@ -634,6 +667,22 @@ Model for Reinforcement Learning**
   arXiv 2023
 
   [paper](https://arxiv.org/abs/2312.08533)
+
+- **Distilling Conditional Diffusion Models for Offline Reinforcement Learning through Trajectory Stitching**
+
+  Shangzhe Li, Xinhua Zhang
+
+  arXiv 2024
+
+  [paper](https://arxiv.org/abs/2402.00807)
+
+- **DiffStitch: Boosting Offline Reinforcement Learning with Diffusion-based Trajectory Stitching**
+
+  Guanghe Li, Yixiang Shan, Zhengbang Zhu, Ting Long, Weinan Zhang
+
+  arXiv 2024
+
+  [paper](https://arxiv.org/abs/2402.02439)
 
 ## Citation
 ```

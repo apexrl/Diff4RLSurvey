@@ -505,6 +505,14 @@ Model for Reinforcement Learning**
 
   [paper](https://arxiv.org/abs/2403.03954) / [website](https://3d-diffusion-policy.github.io) / [code](https://github.com/YanjieZe/3D-Diffusion-Policy)
 
+- **Large-Scale Actionless Video Pre-Training via Discrete Diffusion for Efficient Policy Learning**
+
+  Haoran He, Chenjia Bai, Ling Pan, Weinan Zhang, Bin Zhao, Xuelong Li
+
+  arxiv 2024
+
+  [paper](https://arxiv.org/abs/2402.14407) / [website](https://video-diff.github.io/)
+
 ### Trajectory Generation
 
 - **MotionDiffuse: Text-Driven Human Motion Generation with Diffusion Model**

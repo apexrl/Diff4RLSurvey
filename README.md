@@ -300,6 +300,14 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 
   [paper](https://arxiv.org/abs/2402.02772)
 
+- **Policy-Guided Diffusion**
+
+  Matthew Thomas Jackson, Michael Tryfan Matthews, Cong Lu, Benjamin Ellis, Shimon Whiteson, Jakob Foerster
+
+  arXiv 2024
+
+  [paper](https://arxiv.org/abs/2404.06356) / [code](https://github.com/EmptyJackson/policy-guided-diffusion)
+
 ### Online Reinforcement Learning
 
 - **Policy Representation via Diffusion Probability

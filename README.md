@@ -20,756 +20,198 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 
 ### Offline Reinforcement Learning
 
-- **Planning with Diffusion for Flexible Behavior Synthesis**
+- **Planning with Diffusion for Flexible Behavior Synthesis**, ICML 2022. [[paper](https://arxiv.org/abs/2205.09991)] [[code](https://github.com/jannerm/diffuser)]
 
-  Michael Janner, Yilun Du, Joshua B. Tenenbaum, Sergey Levine
+- **Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning**, ICLR 2023. [[paper](https://arxiv.org/abs/2208.06193)] [[code](https://github.com/zhendong-wang/diffusion-policies-for-offline-rl)] 
 
-  ICML 2022
+- **Offline Reinforcement Learning via High-fidelity Generative Behavior Modeling**, ICLR 2023. [[paper](https://arxiv.org/abs/2209.14548)] [[code](https://github.com/chendrag/sfbc)]
 
-  [paper](https://arxiv.org/abs/2205.09991) / [code](https://github.com/jannerm/diffuser)
+- **Is Conditional Generative Modeling all you need for Decision-Making?**, ICLR 2023. [[paper](https://arxiv.org/abs/2211.15657)] [[code](https://github.com/xcvil/decision-diffuser/tree/main/code)]
 
-- **Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning**
+- **AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners**, ICML 2023. [[paper](https://arxiv.org/abs/2302.01877)] [[code](https://github.com/Liang-ZX/adaptdiffuser)]
 
-  Zhendong Wang, Jonathan J Hunt, Mingyuan Zhou
+- **Metadiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL**, ICML 2023. [[paper](https://arxiv.org/abs/2305.19923)]
 
-  ICLR 2023
+- **Hierarchical Diffusion for Offline Decision Making**, ICML 2023. [[paper](https://openreview.net/forum?id=55kLa7tH9o)] [[code](https://github.com/ewanlee/HDMI)]
 
-  [paper](https://arxiv.org/abs/2208.06193) / [code](https://github.com/zhendong-wang/diffusion-policies-for-offline-rl) 
+- **Contrastive Energy Prediction for Exact Energy-guided Diffusion Sampling in Offline Reinforcement Learning**, ICML 2023. [[paper](https://arxiv.org/abs/2304.12824)] [[code](https://github.com/thu-ml/cep-energy-guided-diffusion)]
 
-- **Offline Reinforcement Learning via High-fidelity Generative Behavior Modeling**
+- **Language Control Diffusion: Efficiently Scaling through Space, Time, and Tasks**, arXiv 2023. [[paper](https://arxiv.org/abs/2210.15629v2)] [[code](https://github.com/ezhang7423/language-control-diffusion)]
 
-  Huayu Chen, Cheng Lu, Chengyang Ying, Hang Su, Jun Zhu
+- **IDQL: Implicit Q-Learning as an Actor-Critic Method with Diffusion Policies**, arXiv 2023. [[paper](https://arxiv.org/abs/2304.10573)] [[code](https://github.com/philippe-eecs/idql)]
 
-  ICLR 2023
+- **Diffusion Model is an Effective Planner and Data Synthesizer for Multi-Task Reinforcement Learning**, NeurIPS 2023. [[paper](https://arxiv.org/abs/2305.18459)] [[code](https://github.com/tinnerhrhe/MTDiff)]
 
-  [paper](https://arxiv.org/abs/2209.14548) / [code](https://github.com/chendrag/sfbc)
+- **EDGI: Equivariant Diffusion for Planning with Embodied Agents**, NeurIPS 2023. [[paper](https://arxiv.org/abs/2303.12410)]
 
-- **Is Conditional Generative Modeling all you need for Decision-Making?**
+- **Extracting Reward Functions from Diffusion Models**, NeurIPS 2023. [[paper](https://arxiv.org/abs/2306.01804)]
 
-  Anurag Ajay, Yilun Du, Abhi Gupta, Joshua B. Tenenbaum, T. Jaakkola, Pulkit Agrawal
+- **Can Pre-Trained Text-to-Image Models Generate Visual Goals for Reinforcement Learning?**, NeurIPS 2023. [[paper](https://arxiv.org/abs/2307.07837)]
 
-  ICLR 2023
+- **Reward-Directed Conditional Diffusion: Provable Distribution Estimation and Reward Improvement**, NeurIPS 2023. [[paper](https://arxiv.org/abs/2307.07055)] [[code](https://github.com/Kaffaljidhmah2/RCGDM/tree/main)]
 
-  [paper](https://arxiv.org/abs/2211.15657) / [code](https://github.com/xcvil/decision-diffuser/tree/main/code)
+- **Refining Diffusion Planner for Reliable Behavior Synthesis by Automatic Detection of Infeasible Plans**, NeurIPS 2023. [[paper](https://arxiv.org/abs/2310.19427)] [[code](https://github.com/leekwoon/rgg)]
 
-- **AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners**
+- **SafeDiffuser: Safe Planning with Diffusion Probabilistic Models**, arXiv 2023. [[paper](https://arxiv.org/abs/2306.00148)]
 
-  Zhixuan Liang, Yao Mu, Mingyu Ding, Fei Ni, Masayoshi Tomizuka, Ping Luo
+- **Efficient Diffusion Policies for Offline Reinforcement Learning**, arXiv 2023. [[paper](https://arxiv.org/abs/2305.20081)] [[code](https://github.com/sail-sg/edp)]
 
-  ICML 2023
+- **MADiff: Offline Multi-agent Learning with Diffusion Models**, arXiv 2023. [[paper](https://arxiv.org/abs/2305.17330)] [[code](https://github.com/zbzhu99/madiff)]
 
-  [paper](https://arxiv.org/abs/2302.01877) / [code](https://github.com/Liang-ZX/adaptdiffuser)
+- **Beyond Conservatism: Diffusion Policies in Offline Multi-agent Reinforcement Learning**, arXiv 2023. [[paper](https://arxiv.org/abs/2307.01472)]
 
-- **Metadiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL**
+- **Fighting Uncertainty with Gradients: Offline Reinforcement Learning via Diffusion Score Matching**, CoRL 2023. [[paper](https://arxiv.org/abs/2306.14079)] [[code](https://github.com/hjsuh94/score_po)]
 
-  Fei Ni, Jianye Hao, Yao Mu, Yifu Yuan, Yan Zheng, Bin Wang, Zhixuan Liang
+- **Value function estimation using conditional diffusion models for control**, arXiv 2023. [[paper](https://arxiv.org/abs/2306.07290)]
 
-  ICML 2023
+- **Instructed Diffuser with Temporal Condition Guidance for Offline Reinforcement Learning**, arXiv 2023. [[paper](https://arxiv.org/abs/2306.04875)]
 
-  [paper](https://arxiv.org/abs/2305.19923)
+- **Diffusion Policies for Out-of-Distribution Generalization in Offline Reinforcement Learning**, arXiv 2023. [[paper](https://arxiv.org/abs/2307.04726)]
 
-- **Hierarchical Diffusion for Offline Decision Making**
+- **Diffusion Policies as Multi-Agent Reinforcement Learning Strategies**, ICANN 2023. [[paper](https://link.springer.com/chapter/10.1007/978-3-031-44213-1_30)]
 
-  Wenhao Li, Xiangfeng Wang, Bo Jin, Hongyuan Zha.
+- **DiffCPS: Diffusion Model based Constrained Policy Search for Offline Reinforcement Learning**, arXiv 2023. [[paper](https://arxiv.org/abs/2310.05333)] [[code](https://github.com/felix-thu/DiffCPS)]
 
-  ICML 2023
+- **Score Regularized Policy Optimization through Diffusion Behavior**, ICLR 2024. [[paper](https://arxiv.org/abs/2310.07297)] [[code](https://github.com/thu-ml/srpo)]
 
-  [paper](https://openreview.net/forum?id=55kLa7tH9o) / [code](https://github.com/ewanlee/HDMI)
+- **Adaptive Online Replanning with Diffusion Models**, arXiv 2023. [[paper](https://arxiv.org/abs/2310.09629)]
 
-- **Contrastive Energy Prediction for Exact Energy-guided Diffusion Sampling in Offline Reinforcement Learning**
+- **AlignDiff: Aligning Diverse Human Preferences via Behavior-Customisable Diffusion Model**, arXiv 2023. [[paper](https://arxiv.org/abs/2310.02054)] [[code](https://github.com/aligndiff/aligndiff.github.io)]
 
-  Cheng Lu, Huayu Chen, Jianfei Chen, Hang Su, Chongxuan Li, Jun Zhu
+- **SkillDiffuser: Interpretable Hierarchical Planning via Skill Abstractions in Diffusion-Based Task Execution**, CVPR 2024. [[paper](https://arxiv.org/abs/2312.11598)] [[website](https://skilldiffuser.github.io/)]
 
-  ICML 2023
+- **Learning a Diffusion Model Policy from Rewards vis Q-score Matching**, arXiv 2023. [[paper](https://arxiv.org/abs/2312.11752)]
 
-  [paper](https://arxiv.org/abs/2304.12824) / [code](https://github.com/thu-ml/cep-energy-guided-diffusion)
+- **Simple Hierarchical Planning with Diffusion**, ICLR 2024. [[paper](https://arxiv.org/abs/2401.02644)]
 
-- **Language Control Diffusion: Efficiently Scaling through Space, Time, and Tasks**
+- **Reasoning with Latent Diffusion in Offline Reinforcement Learning**, ICLR 2024. [[paper](https://arxiv.org/abs/2309.06599)]
 
-  Edwin Zhang, Yujie Lu, William Wang, Amy Zhang
+- **Efficient Planning with Latent Diffusion**, ICLR 2024. [[paper](https://arxiv.org/abs/2310.00311)]
 
-  arXiv 2023
+- **Contrastive Diffuser: Planning Towards High Return States via Contrastive Learning**, arXiv 2024. [[paper](https://arxiv.org/abs/2402.02772)]
 
-  [paper](https://arxiv.org/abs/2210.15629v2) / [code](https://github.com/ezhang7423/language-control-diffusion)
+- **DMBP: Diffusion model-based predictor for robust offline reinforcement learning against state observation perturbations**, ICLR 2024. [[paper](https://openreview.net/forum?id=ZULjcYLWKe)] [[code](https://github.com/zhyang2226/DMBP)]
 
-- **IDQL: Implicit Q-Learning as an Actor-Critic Method with Diffusion Policies**
+- **Entropy-regularized Diffusion Policy with Q-Ensembles for Offline Reinforcement Learning**, arXiv 2024. [[paper](https://arxiv.org/abs/2402.04080)] [[code](https://github.com/ruoqizzz/entropy-offlineRL)]
 
-  Philippe Hansen-Estruch, Ilya Kostrikov, Michael Janner, Jakub Grudzien Kuba, Sergey Levine
+- **Diffusion World Model**, arXiv 2024. [[paper](https://arxiv.org/abs/2402.03570)]
 
-  arXiv 2023
+- **Diffusion World Models**, OpenReview 2024. [[paper](https://openreview.net/forum?id=bAXmvOLtjA)]
 
-  [paper](https://arxiv.org/abs/2304.10573) / [code](https://github.com/philippe-eecs/idql)
-
-- **Diffusion Model is an Effective Planner and Data Synthesizer for Multi-Task Reinforcement Learning**
-
-  Haoran He, Chenjia Bai, Kang Xu, Zhuoran Yang, Weinan Zhang, Dong Wang, Bin Zhao, Xuelong Li
-
-  NeurIPS 2023
-
-  [paper](https://arxiv.org/abs/2305.18459) / [code](https://github.com/tinnerhrhe/MTDiff)
-
-- **EDGI: Equivariant Diffusion for Planning with Embodied Agents**
-
-  Johann Brehmer, Joey Bose, Pim de Haan, Taco Cohen
-
-  NeurIPS 2023
-
-  [paper](https://arxiv.org/abs/2303.12410)
-
-- **Extracting Reward Functions from Diffusion Models**
-
-  Felipe Nuti, Tim Franzmeyer, João F. Henriques
-
-  NeurIPS 2023
-
-  [paper](https://arxiv.org/abs/2306.01804)
-
-- **Can Pre-Trained Text-to-Image Models Generate Visual Goals for Reinforcement Learning?**
-
-  Jialu Gao, Kaizhe Hu, Guowei Xu, Huazhe Xu
-
-  NeurIPS 2023
-
-  [paper](https://arxiv.org/abs/2307.07837)
-
-- **Reward-Directed Conditional Diffusion: Provable Distribution Estimation and Reward Improvement**
-
-  Hui Yuan, Kaixuan Huang, Chengzhuo Ni, Minshuo Chen, Mengdi Wang
-
-  NeurIPS 2023
-
-  [paper](https://arxiv.org/abs/2307.07055) / [code](https://github.com/Kaffaljidhmah2/RCGDM/tree/main)
-
-- **Refining Diffusion Planner for Reliable Behavior Synthesis by Automatic Detection of Infeasible Plans**
-
-  Kyowoon Lee, Seongun Kim, Jaesik Choi
-
-  NeurIPS 2023
-
-  [paper](https://arxiv.org/abs/2310.19427) / [code](https://github.com/leekwoon/rgg)
-
-- **SafeDiffuser: Safe Planning with Diffusion Probabilistic Models**
-
-  Wei Xiao, Tsun-Hsuan Wang, Chuang Gan, Daniela Rus
-
-  arXiv 2023
-
-  [paper](https://arxiv.org/abs/2306.00148)
-
-- **Efficient Diffusion Policies for Offline Reinforcement Learning**
-
-  Bingyi Kang, Xiao Ma, Chao Du, Tianyu Pang, Shuicheng Yan
-
-  arXiv 2023
-
-  [paper](https://arxiv.org/abs/2305.20081) / [code](https://github.com/sail-sg/edp)
-
-- **MADiff: Offline Multi-agent Learning with Diffusion Models**
-
-  Zhengbang Zhu, Minghuan Liu, Liyuan Mao, Bingyi Kang, Minkai Xu, Yong Yu, Stefano Ermon, Weinan Zhang
-
-  arXiv 2023
-
-  [paper](https://arxiv.org/abs/2305.17330) / [code](https://github.com/zbzhu99/madiff)
-
-- **Beyond Conservatism: Diffusion Policies in Offline Multi-agent Reinforcement Learning**
-
-  Zhuoran Li, Ling Pan, Longbo Huang
-
-  arXiv 2023
-
-  [paper](https://arxiv.org/abs/2307.01472)
-
-- **Fighting Uncertainty with Gradients: Offline Reinforcement Learning via Diffusion Score Matching**
-
-  H.J. Terry Suh, Glen Chou, Hongkai Dai, Lujie Yang, Abhishek Gupta, Russ Tedrake
-
-  CoRL 2023
-
-  [paper](https://arxiv.org/abs/2306.14079) / [code](https://github.com/hjsuh94/score_po)
-
-- **Value function estimation using conditional diffusion models for control**
-
-  Bogdan Mazoure, Walter Talbott, Miguel Angel Bautista, Devon Hjelm, Alexander Toshev, Josh Susskind
-
-  arXiv 2023
-
-  [paper](https://arxiv.org/abs/2306.07290)
-
-- **Instructed Diffuser with Temporal Condition Guidance for Offline Reinforcement Learning**
-
-  Jifeng Hu, Yanchao Sun, Sili Huang, SiYuan Guo, Hechang Chen, Li Shen, Lichao Sun, Yi Chang, Dacheng Tao
-
-  arXiv 2023
-
-  [paper](https://arxiv.org/abs/2306.04875)
-
-- **Diffusion Policies for Out-of-Distribution Generalization in Offline Reinforcement Learning**
-
-  Suzan Ece Ada, Erhan Oztop, Emre Ugur
-
-  arXiv 2023
-
-  [paper](https://arxiv.org/abs/2307.04726)
-
-- **Diffusion Policies as Multi-Agent Reinforcement Learning Strategies**
-
-  Jinkun Geng, Xiubo Liang, Hongzhi Wang, Yu Zhao 
-
-  ICANN 2023
-
-  [paper](https://link.springer.com/chapter/10.1007/978-3-031-44213-1_30)
-
-- **DiffCPS: Diffusion Model based Constrained Policy Search for Offline Reinforcement Learning**
-
-  Longxiang He, Linrui Zhang, Junbo Tan, Xueqian Wang
-
-  arXiv 2023
-
-  [paper](https://arxiv.org/abs/2310.05333) / [code](https://github.com/felix-thu/DiffCPS)
-
-- **Score Regularized Policy Optimization through Diffusion Behavior**
-
-  Huayu Chen, Cheng Lu, Zhengyi Wang, Hang Su, Jun Zhu
-
-  ICLR 2024
-
-  [paper](https://arxiv.org/abs/2310.07297) / [code](https://github.com/thu-ml/srpo)
-
-- **Adaptive Online Replanning with Diffusion Models**
-
-  Siyuan Zhou, Yilun Du, Shun Zhang, Mengdi Xu, Yikang Shen, Wei Xiao, Dit-Yan Yeung, Chuang Gan
-
-  arXiv 2023
-
-  [paper](https://arxiv.org/abs/2310.09629)
-
-- **AlignDiff: Aligning Diverse Human Preferences via Behavior-Customisable Diffusion Model**
-
-  Zibin Dong, Yifu Yuan, Jianye Hao, Fei Ni, Yao Mu, Yan Zheng, Yujing Hu, Tangjie Lv, Changjie Fan, Zhipeng Hu
-
-  arXiv 2023
-
-  [paper](https://arxiv.org/abs/2310.02054) / [code](https://github.com/aligndiff/aligndiff.github.io)
-
-- **SkillDiffuser: Interpretable Hierarchical Planning via Skill Abstractions in Diffusion-Based Task Execution**
-
-  Zhixuan Liang, Yao Mu, Hengbo Ma, Masayoshi Tomizuka, Mingyu Ding, Ping Luo
-
-  CVPR 2024
-
-  [paper](https://arxiv.org/abs/2312.11598) / [website](https://skilldiffuser.github.io/)
-
-- **Learning a Diffusion Model Policy from Rewards vis Q-score Matching**
-
-  Michael Psenka, Alejandro Escontrela, Pieter Abbeel, Yi Ma
-
-  arXiv 2023
-
-  [paper](https://arxiv.org/abs/2312.11752)
-
-- **Simple Hierarchical Planning with Diffusion**
-
-  Chang Chen, Fei Deng, Kenji Kawaguchi, Caglar Gulcehre, Sungjin Ahn
-
-  ICLR 2024
-
-  [paper](https://arxiv.org/abs/2401.02644)
-
-- **Reasoning with Latent Diffusion in Offline Reinforcement Learning**
-
-  Siddarth Venkatraman, Shivesh Khaitan, Ravi Tej Akella, John Dolan, Jeff Schneider, Glen Berseth
-
-  ICLR 2024
-
-  [paper](https://arxiv.org/abs/2309.06599)
-
-- **Efficient Planning with Latent Diffusion**
-
-  Wenhao Li
-
-  ICLR 2024
-
-  [paper](https://arxiv.org/abs/2310.00311)
-
-- **Contrastive Diffuser: Planning Towards High Return States via Contrastive Learning**
-
-  Yixiang Shan, Zhengbang Zhu, Ting Long, Qifan Liang, Yi Chang, Weinan Zhang, Liang Yin
-
-  arXiv 2024
-
-  [paper](https://arxiv.org/abs/2402.02772)
-
-- **DMBP: Diffusion model-based predictor for robust offline reinforcement learning against state observation perturbations**
-
-  Zhihe YANG, Yunjian Xu
-
-  ICLR 2024
-
-  [paper](https://openreview.net/forum?id=ZULjcYLWKe) / [code](https://github.com/zhyang2226/DMBP)
-
-- **Entropy-regularized Diffusion Policy with Q-Ensembles for Offline Reinforcement Learning**
-
-  Ruoqi Zhang, Ziwei Luo, Jens Sjölund, Thomas B. Schön, Per Mattsson
-
-  arXiv 2024
-
-  [paper](https://arxiv.org/abs/2402.04080) / [code](https://github.com/ruoqizzz/entropy-offlineRL)
-
-- **Diffusion World Model**
-
-  Zihan Ding, Amy Zhang, Yuandong Tian, Qinqing Zheng
-
-  arXiv 2024
-
-  [paper](https://arxiv.org/abs/2402.03570)
-
-- **Diffusion World Models**
-
-  Eloi Alonso, Adam Jelley, Anssi Kanervisto, Tim Pearce
-
-  OpenReview 2024
-
-  [paper](https://openreview.net/forum?id=bAXmvOLtjA)
-
-- **Policy-Guided Diffusion**
-
-  Matthew Thomas Jackson, Michael Tryfan Matthews, Cong Lu, Benjamin Ellis, Shimon Whiteson, Jakob Foerster
-
-  arXiv 2024
-
-  [paper](https://arxiv.org/abs/2404.06356) / [code](https://github.com/EmptyJackson/policy-guided-diffusion)
+- **Policy-Guided Diffusion**, arXiv 2024. [[paper](https://arxiv.org/abs/2404.06356)] [[code](https://github.com/EmptyJackson/policy-guided-diffusion)]
 
 ### Online Reinforcement Learning
 
-- **Policy Representation via Diffusion Probability Model for Reinforcement Learning**
+- **Policy Representation via Diffusion Probability Model for Reinforcement Learning**, arXiv 2023. [[paper](https://arxiv.org/abs/2305.13122)]
 
-  Long Yang, Zhixiong Huang, Fenghao Lei, Yucun Zhong, Yiming Yang, Cong Fang, Shiting Wen, Binbin Zhou, Zhouchen Lin
+- **Boosting Continuous Control with Consistency Policy**, arXiv 2023. [[paper](https://arxiv.org/abs/2310.06343)]
 
-  arXiv 2023
+- **Diffusion Reward: Learning Rewards via Conditional Video Diffusion**, arXiv 2023. [[paper](https://arxiv.org/abs/2312.14134)] [[website](https://diffusion-reward.github.io/)] [[code](https://github.com/TaoHuang13/diffusion_reward)]
 
-  [paper](https://arxiv.org/abs/2305.13122)
-
-- **Boosting Continuous Control with Consistency Policy**
-
-  Yuhui Chen, Haoran Li, Dongbin Zhao
-
-  arXiv 2023
-
-  [paper](https://arxiv.org/abs/2310.06343)
-
-- **Diffusion Reward: Learning Rewards via Conditional Video Diffusion**
-
-  Tao Huang*, Guangqi Jiang*, Yanjie Ze, Huazhe Xu
-
-  arXiv 2023
-
-  [paper](https://arxiv.org/abs/2312.14134) / [website](https://diffusion-reward.github.io/) / [code](https://github.com/TaoHuang13/diffusion_reward)
-
-- **ATraDiff: Accelerating Online Reinforcement Learning with Imaginary Trajectories**
-
-  Qianlan Yang, Yu-Xiong Wang
-
-  OpenReview 2024
-
-  [paper](https://openreview.net/forum?id=Ng7OYC3PT8)
+- **ATraDiff: Accelerating Online Reinforcement Learning with Imaginary Trajectories**, OpenReview 2024. [[paper](https://openreview.net/forum?id=Ng7OYC3PT8)]
 
 ### Imitation Learning
 
-- **Imitating Human Behaviour with Diffusion Models**
+- **Imitating Human Behaviour with Diffusion Models**, ICLR 2023. [[paper](https://arxiv.org/abs/2301.10677)] [[code](https://github.com/microsoft/imitating-human-behaviour-w-diffusion)]
 
-  Tim Pearce, Tabish Rashid, Anssi Kanervisto, Dave Bignell, Mingfei Sun, Raluca Georgescu, Sergio Valcarcel Macua, Shan Zheng Tan, Ida Momennejad, Katja Hofmann, Sam Devlin**
+- **Diffusion Policy: Visuomotor Policy Learning via Action Diffusion**, RSS 2023. [[paper](https://arxiv.org/abs/2303.04137)] [[code](https://github.com/real-stanford/diffusion_policy)]
 
-  ICLR 2023
+- **Goal-Conditioned Imitation Learning using Score-based Diffusion Policies**, RSS 2023. [[paper](https://arxiv.org/abs/2304.02532)] [[code](https://github.com/intuitive-robots/beso)]
 
-  [paper](https://arxiv.org/abs/2301.10677) / [code](https://github.com/microsoft/imitating-human-behaviour-w-diffusion)
+- **To the Noise and Back: Diffusion for Shared Autonomy**, RSS 2023. [[paper](https://arxiv.org/abs/2302.12244)] [[code](https://github.com/ripl/diffusion-for-shared-autonomy)]
 
-- **Diffusion Policy: Visuomotor Policy Learning via Action Diffusion**
+- **DALL-E-Bot: Introducing Web-Scale Diffusion Models to Robotics**, RAL 2023. [[paper](https://arxiv.org/abs/2210.02438)]
 
-  Cheng Chi, Siyuan Feng, Yilun Du, Zhenjia Xu, Eric Cousineau, Benjamin Burchfiel, Shuran Song
+- **Scaling Up and Distilling Down: Language-Guided Robot Skill Acquisition**, CoRL 2023. [[paper](https://arxiv.org/abs/2307.14535)] [[code](https://github.com/real-stanford/scalingup)]
 
-  RSS 2023
+- **XSkill: Cross Embodiment Skill Discovery**, CoRL 2023. [[paper](https://arxiv.org/abs/2307.09955)]
 
-  [paper](https://arxiv.org/abs/2303.04137) / [code](https://github.com/real-stanford/diffusion_policy)
+- **ChainedDiffuser: Unifying Trajectory Diffusion and Keypose Prediction for Robotic Manipulation**, CoRL 2023. [[paper](https://openreview.net/forum?id=W0zgY2mBTA8)] [[code](https://github.com/zhouxian/chained-diffuser)]
 
-- **Goal-Conditioned Imitation Learning using Score-based Diffusion Policies**
+- **PlayFusion: Skill Acquisition via Diffusion from Language-Annotated Play**, CoRL 2023. [[paper](https://openreview.net/forum?id=afF8RGcBBP)]
 
-  Moritz Reuss, Maximilian Li, Xiaogang Jia, Rudolf Lioutikov
+- **Generative Skill Chaining: Long-Horizon Skill Planning with Diffusion Models**, CoRL 2023. [[paper](https://openreview.net/forum?id=HtJE9ly5dT)] [[code](https://github.com/generative-skill-chaining/gsc-code)]
 
-  RSS 2023
+- **Multimodal Diffusion Transformer for Learning from Play**, CoRL 2023. [[paper](https://openreview.net/forum?id=nvtxqMGpn1)]
 
-  [paper](https://arxiv.org/abs/2304.02532) / [code](https://github.com/intuitive-robots/beso)
+- **GNFactor: Multi-Task Real Robot Learning with Generalizable Neural Feature Fields**, CoRL 2023. [[paper](https://arxiv.org/abs/2308.16891)] [[code](https://github.com/YanjieZe/GNFactor)]
 
-- **To the Noise and Back: Diffusion for Shared Autonomy**
+- **Crossway Diffusion: Improving Diffusion-based Visuomotor Policy via Self-supervised Learning**, arXiv 2023. [[paper](https://arxiv.org/abs/2307.01849)] [[code](https://github.com/lostxine/crossway_diffusion)]
 
-  Takuma Yoneda, Luzhe Sun, and Ge Yang, Bradly Stadie, Matthew Walter
+- **Diffusion Co-Policy for Synergistic Human-Robot Collaborative Tasks**, arXiv 2023. [[paper](https://arxiv.org/abs/2305.12171)] [[code](https://github.com/eleyng/diffusion_copolicy)]
 
-  RSS 2023
+- **Compositional Foundation Models for Hierarchical Planning**, NeurIPS 2023. [[paper](https://arxiv.org/abs/2309.08587)] [[code](https://github.com/anuragajay/hip/tree/main)]
 
-  [paper](https://arxiv.org/abs/2302.12244) / [code](https://github.com/ripl/diffusion-for-shared-autonomy)
+- **Generating Behaviorally Diverse Policies with Latent Diffusion Models**, NeurIPS 2023. [[paper](https://arxiv.org/abs/2305.18738)]
 
-- **DALL-E-Bot: Introducing Web-Scale Diffusion Models to Robotics**
+- **NoMaD: Goal Masking Diffusion Policies for Navigation and Exploration**, arXiv 2023. [[paper](https://arxiv.org/abs/2310.07896)] [[code](https://github.com/robodhruv/visualnav-transformer)]
 
-  Ivan Kapelyukh, Vitalis Vosylius, Edward Johns
+- **Zero-Shot Robotic Manipulation with Pretrained Image-Editing Diffusion Models**, arXiv 2023. [[paper](https://arxiv.org/abs/2310.10639)]
 
-  RAL 2023
+- **Imitation Learning from Purified Demonstrations**, arXiv 2023. [[paper](https://arxiv.org/abs/2310.07143)]
 
-  [paper](https://arxiv.org/abs/2210.02438)
+- **Planning as In-Painting: A Diffusion-Based Embodied Task Planning Framework for Environments under Uncertainty**, arXiv 2023. [[paper](https://arxiv.org/abs/2312.01097)]
 
-- **Scaling Up and Distilling Down: Language-Guided Robot Skill Acquisition**
+- **Diffusion Meets DAgger: Supercharging Eye-in-hand Imitation Learning**, arXiv 2024. [[paper](https://arxiv.org/abs/2402.17768)]
 
-  Huy Ha, Pete Florence, Shuran Song
+- **3D Diffusion Policy**, arXiv 2024. [[paper](https://arxiv.org/abs/2403.03954)] [[website](https://3d-diffusion-policy.github.io)] [[code](https://github.com/YanjieZe/3D-Diffusion-Policy)]
 
-  CoRL 2023
+- **Large-Scale Actionless Video Pre-Training via Discrete Diffusion for Efficient Policy Learning**, arxiv 2024. [[paper](https://arxiv.org/abs/2402.14407)] [[website](https://video-diff.github.io/)]
 
-  [paper](https://arxiv.org/abs/2307.14535) / [code](https://github.com/real-stanford/scalingup)
+- **SculptDiff: Learning Robotic Clay Sculpting from Humans with Goal Conditioned Diffusion Policy**, arXiv 2024. [[paper](https://arxiv.org/abs/2403.10401)] [[website](https://sites.google.com/andrew.cmu.edu/imitation-sculpting/home)] [[code](https://github.com/alison-bartsch/SculptDiff)]
 
-- **XSkill: Cross Embodiment Skill Discovery**
-
-  Mengda Xu, Zhenjia Xu, Cheng Chi, Manuela Veloso, Shuran Song
-
-  CoRL 2023
-
-  [paper](https://arxiv.org/abs/2307.09955)
-
-- **ChainedDiffuser: Unifying Trajectory Diffusion and Keypose Prediction for Robotic Manipulation**
-
-  Zhou Xian, Nikolaos Gkanatsios, Theophile Gervet, Tsung-Wei Ke, Katerina Fragkiadaki
-
-  CoRL 2023
-
-  [paper](https://openreview.net/forum?id=W0zgY2mBTA8) / [code](https://github.com/zhouxian/chained-diffuser)
-
-- **PlayFusion: Skill Acquisition via Diffusion from Language-Annotated Play**
-
-  Lili Chen, Shikhar Bahl, Deepak Pathak
-
-  CoRL 2023
-
-  [paper](https://openreview.net/forum?id=afF8RGcBBP)
-
-- **Generative Skill Chaining: Long-Horizon Skill Planning with Diffusion Models**
-
-  Utkarsh A. Mishra, Shangjie Xue, Yongxin Chen, Danfei Xu
-
-  CoRL 2023
-
-  [paper](https://openreview.net/forum?id=HtJE9ly5dT) / [code](https://github.com/generative-skill-chaining/gsc-code)
-
-- **Multimodal Diffusion Transformer for Learning from Play**
-
-  Moritz Reuss, Rudolf Lioutikov
-
-  CoRL 2023
-
-  [paper](https://openreview.net/forum?id=nvtxqMGpn1)
-
-- **GNFactor: Multi-Task Real Robot Learning with Generalizable Neural Feature Fields**
-
-  Yanjie Ze, Ge Yan, Yueh-Hua Wu, Annabella Macaluso, Yuying Ge, Jianglong Ye, Nicklas Hansen, Li Erran Li, Xiaolong Wang
-
-  CoRL 2023
-
-  [paper](https://arxiv.org/abs/2308.16891) / [code](https://github.com/YanjieZe/GNFactor)
-
-- **Crossway Diffusion: Improving Diffusion-based Visuomotor Policy via Self-supervised Learning**
-
-  Xiang Li, Varun Belagali, Jinghuan Shang, Michael S. Ryoo
-
-  arXiv 2023
-
-  [paper](https://arxiv.org/abs/2307.01849) / [code](https://github.com/lostxine/crossway_diffusion)
-
-- **Diffusion Co-Policy for Synergistic Human-Robot Collaborative Tasks**
-
-  Eley Ng, Ziang Liu, Monroe Kennedy III
-
-  arXiv 2023
-
-  [paper](https://arxiv.org/abs/2305.12171) / [code](https://github.com/eleyng/diffusion_copolicy)
-
-- **Compositional Foundation Models for Hierarchical Planning**
-
-  Anurag Ajay, Seungwook Han, Yilun Du, Shuang Li, Abhi Gupta, Tommi Jaakkola, Josh Tenenbaum, Leslie Kaelbling, Akash Srivastava, Pulkit Agrawal
-
-  NeurIPS 2023
-
-  [paper](https://arxiv.org/abs/2309.08587) / [code](https://github.com/anuragajay/hip/tree/main)
-
-- **Generating Behaviorally Diverse Policies with Latent Diffusion Models**
-
-  Shashank Hegde, Sumeet Batra, K. R. Zentner, Gaurav S. Sukhatme
-
-  NeurIPS 2023
-
-  [paper](https://arxiv.org/abs/2305.18738)
-
-- **NoMaD: Goal Masking Diffusion Policies for Navigation and Exploration**
-
-  Ajay Sridhar, Dhruv Shah, Catherine Glossop, Sergey Levine
-
-  arXiv 2023
-
-  [paper](https://arxiv.org/abs/2310.07896) / [code](https://github.com/robodhruv/visualnav-transformer)
-
-- **Zero-Shot Robotic Manipulation with Pretrained Image-Editing Diffusion Models**
-
-  Kevin Black, Mitsuhiko Nakamoto, Pranav Atreya, Homer Walke, Chelsea Finn, Aviral Kumar, Sergey Levine
-
-  arXiv 2023
-
-  [paper](https://arxiv.org/abs/2310.10639)
-
-- **Imitation Learning from Purified Demonstrations**
-
-  Yunke Wang, Minjing Dong, Bo Du, Chang Xu
-
-  arXiv 2023
-
-  [paper](https://arxiv.org/abs/2310.07143)
-
-- **Planning as In-Painting: A Diffusion-Based Embodied Task Planning Framework for Environments under Uncertainty**
-
-  Cheng-Fu Yang, Haoyang Xu, Te-Lin Wu, Xiaofeng Gao, Kai-Wei Chang, Feng Gao
-
-  arXiv 2023
-
-  [paper](https://arxiv.org/abs/2312.01097)
-
-- **Diffusion Meets DAgger: Supercharging Eye-in-hand Imitation Learning**
-
-  Xiaoyu Zhang, Matthew Chang, Pranav Kumar, Saurabh Gupta
-
-  arXiv 2024
-
-  [paper](https://arxiv.org/abs/2402.17768)
-
-- **3D Diffusion Policy**
-
-  Yanjie Ze, Gu Zhang, Kangning Zhang, Chenyuan Hu, Muhan Wang, Huazhe Xu
-
-  arXiv 2024
-
-  [paper](https://arxiv.org/abs/2403.03954) / [website](https://3d-diffusion-policy.github.io) / [code](https://github.com/YanjieZe/3D-Diffusion-Policy)
-
-- **Large-Scale Actionless Video Pre-Training via Discrete Diffusion for Efficient Policy Learning**
-
-  Haoran He, Chenjia Bai, Ling Pan, Weinan Zhang, Bin Zhao, Xuelong Li
-
-  arxiv 2024
-
-  [paper](https://arxiv.org/abs/2402.14407) / [website](https://video-diff.github.io/)
-
-- **SculptDiff: Learning Robotic Clay Sculpting from Humans with Goal Conditioned Diffusion Policy**
-
-  Alison Bartsch, Arvind Car, Charlotte Avra, Amir Barati Farimani
-
-  arXiv 2024
-
-  [paper](https://arxiv.org/abs/2403.10401) / [website](https://sites.google.com/andrew.cmu.edu/imitation-sculpting/home) / [code](https://github.com/alison-bartsch/SculptDiff)
-
-- **Subgoal Diffuser: Coarse-to-fine Subgoal Generation to Guide Model Predictive Control for Robot Manipulation**
-
-  Zixuan Huang, Yating Lin, Fan Yang, Dmitry Berenson
-
-  ICRA 2024
-
-  [paper](https://arxiv.org/abs/2403.13085) / [website](https://sites.google.com/view/subgoal-diffuser-mpc)
+- **Subgoal Diffuser: Coarse-to-fine Subgoal Generation to Guide Model Predictive Control for Robot Manipulation**, ICRA 2024. [[paper](https://arxiv.org/abs/2403.13085)] [[website](https://sites.google.com/view/subgoal-diffuser-mpc)]
 
 ### Trajectory Generation
 
-- **MotionDiffuse: Text-Driven Human Motion Generation with Diffusion Model**
+- **MotionDiffuse: Text-Driven Human Motion Generation with Diffusion Model**, arXiv 2022. [[paper](https://arxiv.org/abs/2208.15001)] [[code](https://github.com/mingyuan-zhang/MotionDiffuse)]
   
-  Mingyuan Zhang, Zhongang Cai, Liang Pan, Fangzhou Hong, Xinying Guo, Lei Yang, Ziwei Liu
+- **Human Motion Diffusion Model**, ICLR 2023. [[paper](https://arxiv.org/abs/2209.14916)] [[code](https://github.com/guytevet/motion-diffusion-model)]
   
-  arXiv 2022
+- **Executing your Commands via Motion Diffusion in Latent Space**, CVPR 2023. [[paper](https://arxiv.org/abs/2212.04048)] [[code](https://github.com/chenfengye/motion-latent-diffusion)]
+- **MoFusion: A Framework for Denoising-Diffusion-based Motion Synthesis**, CVPR 2023. [[paper](https://arxiv.org/abs/2212.04495)] [[code](https://github.com/OFA-Sys/MoFusion)]
   
-  [paper](https://arxiv.org/abs/2208.15001) / [code](https://github.com/mingyuan-zhang/MotionDiffuse)
+- **ReMoDiffuse: Retrieval-Augmented Motion Diffusion Model**, ICCV 2023. [[paper](https://arxiv.org/abs/2304.01116)] [[code](https://github.com/mingyuan-zhang/ReMoDiffuse)]
   
-- **Human Motion Diffusion Model**
+- **MotionDiffuser: Controllable Multi-Agent Motion Prediction using Diffusion**, CVPR 2023. [[paper](https://arxiv.org/abs/2306.03083)]
 
-  Guy Tevet, Sigal Raab, Brian Gordon, Yonatan Shafir, Daniel Cohen-Or, Amit H. Bermano
+- **Learning Universal Policies via Text-Guided Video Generation**, NeurIPS 2023. [[paper](https://arxiv.org/abs/2310.08576)]
+
+- **EquiDiff: A Conditional Equivariant Diffusion Model For Trajectory Prediction**, arXiv 2023. [[paper](https://arxiv.org/abs/2308.06564)]
+
+- **Motion Planning Diffusion: Learning and Planning of Robot Motions with Diffusion Models**, IROS 2023. [[paper](https://arxiv.org/abs/2308.01557)] [[code](https://github.com/jacarvalho/mpd-public)]
+
+- **EDMP: Ensemble-of-costs-guided Diffusion for Motion Planning**, arXiv 2023. [[paper](https://arxiv.org/abs/2309.11414)] [[code](https://github.com/vishal-2000/EDMP)]
+
+- **Sampling Constrained Trajectories Using Composable Diffusion Models**, IROS 2023. [[paper](https://openreview.net/forum?id=UAylEpIMNE)]
+
+- **DiMSam: Diffusion Models as Samplers for Task and Motion Planning under Partial Observability**, arXiv 2023. [[paper](https://arxiv.org/abs/2306.13196)]
+
+- **Conditioned Score-Based Models for Learning Collision-Free Trajectory Generation**, NeurIPSW 2022. [[paper](https://openreview.net/forum?id=4Vqu4N1jjrx)]
+
+- **Video Language Planning**, arXiv 2023. [[paper](https://arxiv.org/abs/2310.10625)] [[code](https://github.com/video-language-planning/vlp_code)]
   
-  ICLR 2023
+- **Learning to Act from Actionless Video through Dense Correspondences**, arXiv 2023. [[paper](https://arxiv.org/abs/2310.08576)] [[code](https://github.com/flow-diffusion/AVDC)]
   
-  [paper](https://arxiv.org/abs/2209.14916) / [code](https://github.com/guytevet/motion-diffusion-model)
-  
-- **Executing your Commands via Motion Diffusion in Latent Space**
-  
-  Xin Chen, Biao Jiang, Wen Liu, Zilong Huang, Bin Fu, Tao Chen, Jingyi Yu, Gang Yu
-  
-  CVPR 2023
-  
-  [paper](https://arxiv.org/abs/2212.04048) / [code](https://github.com/chenfengye/motion-latent-diffusion)
-- **MoFusion: A Framework for Denoising-Diffusion-based Motion Synthesis**
+- **Learning Interactive Real-World Simulators**, arXiv 2023. [[paper](https://arxiv.org/abs/2310.06114)]
 
-  Rishabh Dabral, Muhammad Hamza Mughal, Vladislav Golyanik, Christian Theobalt
-  
-  CVPR 2023
-  
-  [paper](https://arxiv.org/abs/2212.04495) / [code](https://github.com/OFA-Sys/MoFusion)
-  
-- **ReMoDiffuse: Retrieval-Augmented Motion Diffusion Model**
-  
-  Mingyuan Zhang, Xinying Guo, Liang Pan, Zhongang Cai, Fangzhou Hong, Huirong Li, Lei Yang, Ziwei Liu
-  
-  ICCV 2023
-  
-  [paper](https://arxiv.org/abs/2304.01116) / [code](https://github.com/mingyuan-zhang/ReMoDiffuse)
-  
-- **MotionDiffuser: Controllable Multi-Agent Motion Prediction using Diffusion**
-
-  Chiyu Max Jiang, Andre Cornman, Cheolho Park, Ben Sapp, Yin Zhou, Dragomir Anguelov
-  
-  CVPR 2023
-  
-  [paper](https://arxiv.org/abs/2306.03083)
-
-- **Learning Universal Policies via Text-Guided Video Generation**
-
-  Yilun Du, Mengjiao Yang, Bo Dai, Hanjun Dai, Ofir Nachum, Joshua B. Tenenbaum, Dale Schuurmans, Pieter Abbeel
-
-  NeurIPS 2023
-
-  [paper](https://arxiv.org/abs/2310.08576)
-
-- **EquiDiff: A Conditional Equivariant Diffusion Model For Trajectory Prediction**
-
-  Kehua Chen, Xianda Chen, Zihan Yu, Meixin Zhu, Hai Yang
-
-  arXiv 2023
-
-  [paper](https://arxiv.org/abs/2308.06564)
-
-- **Motion Planning Diffusion: Learning and Planning of Robot Motions with Diffusion Models**
-
-  Joao Carvalho, An T. Le, Mark Baierl, Dorothea Koert, Jan Peters
-
-  IROS 2023
-
-  [paper](https://arxiv.org/abs/2308.01557) / [code](https://github.com/jacarvalho/mpd-public)
-
-- **EDMP: Ensemble-of-costs-guided Diffusion for Motion Planning**
-
-  Kallol Saha, Vishal Mandadi, Jayaram Reddy, Ajit Srikanth, Aditya Agarwal, Bipasha Sen, Arun Singh, Madhava Krishna
-
-  arXiv 2023
-
-  [paper](https://arxiv.org/abs/2309.11414) / [code](https://github.com/vishal-2000/EDMP)
-
-- **Sampling Constrained Trajectories Using Composable Diffusion Models**
-
-  Thomas Power, Rana Soltani-Zarrin, Soshi Iba, Dmitry Berenson
-
-  IROS 2023
-
-  [paper](https://openreview.net/forum?id=UAylEpIMNE)
-
-- **DiMSam: Diffusion Models as Samplers for Task and Motion Planning under Partial Observability**
-
-  Xiaolin Fang, Caelan Reed Garrett, Clemens Eppner, Tomás Lozano-Pérez, Leslie Pack Kaelbling, Dieter Fox
-  
-  arXiv 2023
-  
-  [paper](https://arxiv.org/abs/2306.13196)
-
-- **Conditioned Score-Based Models for Learning Collision-Free Trajectory Generation**
-
-  Joao Carvalho, Mark Baierl, Julen Urain, Jan Peters
-  
-  NeurIPSW 2022
-  
-  [paper](https://openreview.net/forum?id=4Vqu4N1jjrx)
-
-- **Video Language Planning**
-
-  Yilun Du, Mengjiao Yang, Pete Florence, Fei Xia, Ayzaan Wahid, Brian Ichter, Pierre Sermanet, Tianhe Yu, Pieter Abbeel, Joshua B. Tenenbaum, Leslie Kaelbling, Andy Zeng, Jonathan Tompson
-  
-  arXiv 2023
-  
-  [paper](https://arxiv.org/abs/2310.10625) / [code](https://github.com/video-language-planning/vlp_code)
-  
-- **Learning to Act from Actionless Video through Dense Correspondences**
-
-  Po-Chen Ko, Jiayuan Mao, Yilun Du, Shao-Hua Sun, Joshua B. Tenenbaum
-  
-  arXiv 2023
-  
-  [paper](https://arxiv.org/abs/2310.08576) / [code](https://github.com/flow-diffusion/AVDC)
-  
-- **Learning Interactive Real-World Simulators**
-
-  Mengjiao Yang, Yilun Du, Kamyar Ghasemipour, Jonathan Tompson, Dale Schuurmans, Pieter Abbeel
-  
-  arXiv 2023
-  
-  [paper](https://arxiv.org/abs/2310.06114)
-
-- **DNAct: Diffusion Guided Multi-Task 3D Policy Learning**
-
-  Ge Yan, Yueh-Hua Wu, Xiaolong Wang
-
-  arXiv 2024
-
-  [paper](https://arxiv.org/abs/2403.04115) / [website](https://dnact.github.io/)
+- **DNAct: Diffusion Guided Multi-Task 3D Policy Learning**, arXiv 2024. [[paper](https://arxiv.org/abs/2403.04115)] [[website](https://dnact.github.io/)]
 
 ### Data Augmentation
 
-- **Scaling Robot Learning with Semantically Imagined Experience**
+- **Scaling Robot Learning with Semantically Imagined Experience**, RSS 2023. [[paper](https://arxiv.org/abs/2302.11550)]
 
-  Tianhe Yu, Ted Xiao, Austin Stone, Jonathan Tompson, Anthony Brohan, Su Wang, Jaspiar Singh, Clayton Tan, Dee M, Jodilyn Peralta, Brian Ichter, Karol Hausman, Fei Xia
+- **GenAug: Retargeting behaviors to unseen situations via Generative Augmentation**, RSS 2023. [[paper](https://arxiv.org/abs/2302.06671)] [[code](https://github.com/genaug/genaug)]
 
-  RSS 2023
+- **Synthetic Experience Replay**, NeurIPS 2023. [[paper](https://arxiv.org/abs/2303.06614)] [[code](https://github.com/conglu1997/SynthER)]
 
-  [paper](https://arxiv.org/abs/2302.11550)
+- **World Models via Policy-Guided Trajectory Diffusion**, arXiv 2023. [[paper](https://arxiv.org/abs/2312.08533)]
 
-- **GenAug: Retargeting behaviors to unseen situations via Generative Augmentation**
+- **Distilling Conditional Diffusion Models for Offline Reinforcement Learning through Trajectory Stitching**, arXiv 2024. [[paper](https://arxiv.org/abs/2402.00807)]
 
-  Zoey Chen, Sho Kiami, Abhishek Gupta, Vikash Kumar
+- **DiffStitch: Boosting Offline Reinforcement Learning with Diffusion-based Trajectory Stitching**, arXiv 2024. [[paper](https://arxiv.org/abs/2402.02439)]
 
-  RSS 2023
-
-  [paper](https://arxiv.org/abs/2302.06671) / [code](https://github.com/genaug/genaug)
-
-- **Synthetic Experience Replay**
-
-  Cong Lu, Philip J. Ball, Yee Whye Teh, Jack Parker-Holder
-
-  NeurIPS 2023
-
-  [paper](https://arxiv.org/abs/2303.06614) / [code](https://github.com/conglu1997/SynthER)
-
-- **World Models via Policy-Guided Trajectory Diffusion**
-
-  Marc Rigter, Jun Yamada, Ingmar Posner
-
-  arXiv 2023
-
-  [paper](https://arxiv.org/abs/2312.08533)
-
-- **Distilling Conditional Diffusion Models for Offline Reinforcement Learning through Trajectory Stitching**
-
-  Shangzhe Li, Xinhua Zhang
-
-  arXiv 2024
-
-  [paper](https://arxiv.org/abs/2402.00807)
-
-- **DiffStitch: Boosting Offline Reinforcement Learning with Diffusion-based Trajectory Stitching**
-
-  Guanghe Li, Yixiang Shan, Zhengbang Zhu, Ting Long, Weinan Zhang
-
-  arXiv 2024
-
-  [paper](https://arxiv.org/abs/2402.02439)
-
-- **Flow to Better: Offline Preference-based Reinforcement Learning via Preferred Trajectory Generation**
-
-  Zhilong Zhang, Yihao Sun, Junyin Ye, Tian-Shuo Liu, Jiaji Zhang, Yang Yu
-
-  ICLR 2024
-
-  [paper](https://openreview.net/forum?id=EG68RSznLT) / [code](https://github.com/Zzl35/flow-to-better)
+- **Flow to Better: Offline Preference-based Reinforcement Learning via Preferred Trajectory Generation**, ICLR 2024. [[paper](https://openreview.net/forum?id=EG68RSznLT)] [[code](https://github.com/Zzl35/flow-to-better)]
 
 ## Citation
 ```

@@ -1,12 +1,12 @@
-# Diffusion Models for Reinforcement Learning: A Survey
-This repository contains a collection of resources and papers on ***Diffusion Models*** for ***RL***.
+# Diffusion Models for Sequential Decision-Making: A Survey
+This repository contains a collection of resources and papers on ***Diffusion Models*** for ***Sequential Decision-Making***.
 
 :rocket: Please check out our survey paper [Diffusion Models for Reinforcement Learning: A Survey](https://arxiv.org/abs/2311.01223)
 
 ![image info](./compare.png)
 
 ## Table of Contents
-- [Diffusion Models for Reinforcement Learning: A Survey](#diffusion-models-for-reinforcement-learning-a-survey)
+- [Diffusion Models for Sequential Decision-Making: A Survey](#diffusion-models-for-sequential-decision-making-a-survey)
   - [Table of Contents](#table-of-contents)
   - [Papers](#papers)
     - [Offline Reinforcement Learning](#offline-reinforcement-learning)
@@ -162,6 +162,10 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 
 - **Subgoal Diffuser: Coarse-to-fine Subgoal Generation to Guide Model Predictive Control for Robot Manipulation**, ICRA 2024. [[paper](https://arxiv.org/abs/2403.13085)] [[website](https://sites.google.com/view/subgoal-diffuser-mpc)]
 
+- **Hierarchical Diffusion Policy for Kinematics-Aware Multi-Task Robotic Manipulation**, CVPR 2024, [[paper](https://arxiv.org/abs/2403.03890)] [[code](https://github.com/dyson-ai/hdp)] [[website](https://yusufma03.github.io/projects/hdp/)]
+
+- **Diffusion-EDFs: Bi-equivariant Denoising Generative Modeling on SE(3) for Visual Robotic Manipulation**, CVPR 2024, [[paper](https://arxiv.org/abs/2309.02685)] [[code](https://github.com/tomato1mule/diffusion_edf)] [[website](https://sites.google.com/view/diffusion-edfs)]
+
 ### Trajectory Generation
 
 - **MotionDiffuse: Text-Driven Human Motion Generation with Diffusion Model**, arXiv 2022. [[paper](https://arxiv.org/abs/2208.15001)] [[code](https://github.com/mingyuan-zhang/MotionDiffuse)]
@@ -169,6 +173,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 - **Human Motion Diffusion Model**, ICLR 2023. [[paper](https://arxiv.org/abs/2209.14916)] [[code](https://github.com/guytevet/motion-diffusion-model)]
   
 - **Executing your Commands via Motion Diffusion in Latent Space**, CVPR 2023. [[paper](https://arxiv.org/abs/2212.04048)] [[code](https://github.com/chenfengye/motion-latent-diffusion)]
+  
 - **MoFusion: A Framework for Denoising-Diffusion-based Motion Synthesis**, CVPR 2023. [[paper](https://arxiv.org/abs/2212.04495)] [[code](https://github.com/OFA-Sys/MoFusion)]
   
 - **ReMoDiffuse: Retrieval-Augmented Motion Diffusion Model**, ICCV 2023. [[paper](https://arxiv.org/abs/2304.01116)] [[code](https://github.com/mingyuan-zhang/ReMoDiffuse)]
@@ -196,6 +201,10 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 - **Learning Interactive Real-World Simulators**, arXiv 2023. [[paper](https://arxiv.org/abs/2310.06114)]
 
 - **DNAct: Diffusion Guided Multi-Task 3D Policy Learning**, arXiv 2024. [[paper](https://arxiv.org/abs/2403.04115)] [[website](https://dnact.github.io/)]
+
+- **Single Motion Diffusion**, ICLR 2024, [[paper](https://arxiv.org/abs/2302.05905)] [[code](https://github.com/SinMDM/SinMDM)] [[website](https://sinmdm.github.io/SinMDM-page/)]
+
+- **READ: Retrieval-Enhanced Asymmetric Diffusion for Motion Planning**, CVPR 2024, [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Oba_READ_Retrieval-Enhanced_Asymmetric_Diffusion_for_Motion_Planning_CVPR_2024_paper.html)] [[code](https://github.com/Obat2343/READ)]
 
 ### Data Augmentation
 
